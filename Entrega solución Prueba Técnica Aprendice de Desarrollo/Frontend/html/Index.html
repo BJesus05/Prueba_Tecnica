@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IzyAcademy</title>
+  <link rel="stylesheet" href="../Css/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header-top">
+    <nav>
+      <div class="nav-container">
+        <a href="" class="logo-area">
+          <img src="../scr/image/logo_izyacademy.png" alt="Logo" class="logo_header_main" />
+        </a>
+
+        <div class="links">
+          <a class="menu-item" href="">Inicio</a>
+          <div class="menu-item menu-dropdown">
+            Rutas De Formación ▾
+            <ul class="menu-drop-list">
+              <div class="menu-drop-arrow"></div>
+              <li><a>Científico De Datos</a></li>
+              <li><a href="RutaFormacionNet.html">Ruta de Formación En .NET</a></li>
+              <li><a>Ruta de Formación en Automatización</a></li>
+            </ul>
+          </div>
+          <div class="menu-item menu-dropdown">Cursos ▾</div>
+          <a class="menu-item" href="">Quienes somos</a>
+        </div>
+
+        <div class="icon-right">
+          <div class="button-icons">
+            <span id="loginBtn" class="icon">Iniciar Sesión</span>
+            <span id="userName" class="icon" style="display:none;"></span> 
+            <span class="bar"></span>
+            <span class="search-icon"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- modal login content -->
+    <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h3>Inicie sesión en su cuenta</h3>
+        <form id="loginForm" class="form-modal-login">
+          <input type="text" id="emailInput" placeholder="Correo electrónico" />
+          <input type="password" id="passwordInput" placeholder="Contraseña" />
+          <div class="form-button-group">
+            <button type="submit" class="modal-login-button">Acceder</button>
+          </div>
+        </form> 
+      </div>
+    </div>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Continúa tu formación con IzyAcademy</h1>
+        <p>
+          Te ofrecemos una experiencia de aprendizaje basada en la formación
+          por proyectos, apoyada en el uso de recursos interactivos para que
+          tu aprendizaje sea efectivo.
+        </p>
+      </div>
+    </section>
+
+    </div>
+  </header>
+
+  <section class="news">
+    <h2>Novedades</h2>
+    <div class="news-card-wrapper">
+      <div class="card-container-left">
+        <div class="news-card news-card-left">
+          <img src="../scr/image/card1.jpg" alt="card1-image" />
+          <br />
+          <div class="card-content">
+            <h3>Bienvenidos a IzyAcademy</h3>
+            <p>
+              Nos complace darte la bienvenida a este innovador espacio
+              educativo donde la exelencia academica se encuentra con la
+              comodidad y flexibilidad. Aqu, tú aprendizaje es nuestra
+              proriedad, y nuestro campus virtual esta diseñado para ofrecer
+              una exelente experiencia educativa enriquesedora desde la
+              comodidad de tu
+            </p>
+            <br />
+            <hr />
+
+            <div class="banner-footer">
+              ¡Aprovecha!, este mes hasta un 35% de descuento en todos
+              nuestros cursos y rutas de formacion.
+              <span class="footer-icon"></span>
+            </div>
+            <hr />
+          </div>
+        </div>
+      </div>
+      <div class="card-container card-container-right">
+        <div class="news-card">
+          <img src="../scr/image/card2.jpg" alt="card2-image" />
+          <div class="card-content">
+            <h3>Generacion de comunidad</h3>
+            <p>
+              Nos complace generar vínculos sociales entre personas que
+              comparten un mismo interés, incentivar la construcción de un
+              sentido de pertenencia y colaboración dentro de la comunidad.
+            </p>
+          </div>
+        </div>
+        <div class="news-card">
+          <img src="../scr/image/card3.jpg" alt="card3-image" />
+          <div class="card-content">
+            <h3>Transferencia de conocimiento</h3>
+            <p>
+              Nos apasiona compartir información, habilidades y experiencias
+              con el objetivo de aplicar y aprovechar esta información para el
+              desarrollo de las habilidades.
+            </p>
+          </div>
+        </div>
+        <div class="news-card">
+          <img src="../scr/image/card4.jpg" alt="card4-image" />
+          <div class="card-content">
+            <h3>Certificaciones e insignias</h3>
+            <p>
+              IzyAcademy te brinda certificaciones e insignias digitales para
+              que compartas y avales los conocimientos adquiridos junto a
+              nosotros.
+            </p>
+          </div>
+        </div>
+        <div class="news-card">
+          <img src="../scr/image/card5.jpg" alt="card5-image" />
+          <div class="card-content">
+            <h3>Apropiación del conocimiento</h3>
+            <p>
+              Desde IzyAcademy nos importa que adquieras, comprendas y
+              asimiles el conocimiento, habilidades e ideas que creamos para
+              ti y para la comunidad.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alliances">
+    <h2>Aliados</h2>
+    <p>
+      Nuestros entrenamientos, proceres formativos y certificaciones cuentan
+      con el respaslde de empresas que confian en nosotros.
+    </p>
+    <div class="logo-row">
+      <div class="company-logos">
+        <img src="../scr/image/logo_brightest.png" alt="" />
+      </div>
+      <div class="company-logos">
+        <img src="../scr/image/logo_Arcitura.png" alt="" />
+      </div>
+      <div class="company-logos">
+        <img src="../scr/image/logo_certiprof.jpg" alt="" />
+      </div>
+      <div class="company-logos">
+        <img src="../scr/image/logo_credly.jpg" alt="" />
+      </div>
+      <div class="company-logos">
+        <img src="../scr/image/logo_formarte.png" alt="" />
+      </div>
+      <div class="company-logos">
+        <img src="../scr/image/logo_intersoftware.jpg" alt="" />
+      </div>
+      <div class="company-logos">
+        <img src="../scr/image/logo_scrumstudy.jpg" alt="" />
+      </div>
+      <div class="company-logos">
+        <img src="../scr/image/logo_sena.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section class="register-section">
+    <div class="izzy-avatar">
+      <img src="../scr/image/img_parallax.webp" alt="Avatar Izy academy" class="avatar" />
+    </div>
+    <div class="register-box">
+      <h3>Registrate</h3>
+      <form class="register-form" id="registerForm">
+        <div class="input-group">
+          <input type="text" id="firstName" placeholder="Nombre" required />
+        </div>
+        <div class="input-group">
+          <input type="text" id="lastName" placeholder="Apellidos" required />
+        </div>
+        <div class="input-group">
+          <input type="email" id="email" placeholder="Correo electronico" required />
+        </div>
+        <div class="input-group">
+          <input type="password" id="password" placeholder="Contraseña" required />
+        </div>
+        <div class="input-group">
+          <input type="password" id="confirmPassword" placeholder="Confirmar Contraseña" required />
+        </div>
+        <div class="checkboxes">
+          <input type="checkbox" id="terms" required />
+          <label for="terms">Acepto Terminos y condiciones</label><br />
+          <input type="checkbox" id="privacy" required />
+          <label for="privacy">Acepto Política de tratamiento de datos</label><br />
+        </div>
+        <div class="button-group">
+          <button type="submit" class="btn">Registrarse</button>
+        </div>
+      </form>
+    </div>
+    
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Contáctanos</h4>
+        <ul class="contact-list">
+          <li>E-mail: comercial@qvision.us</li>
+          <li>WhatsApp: +300 255 02 65</li>
+          <li>Comunicate con nosotros</li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Categorías de Cursos</h4>
+        <ul class="footer-links">
+          <li>Desarrollo</li>
+          <li>Metodología de Pruebas</li>
+          <li>Pruebas Funcionales</li>
+          <li>Pruebas No Funcionales</li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Certificaciones</h4>
+        <ul class="footer-links">
+          <li>Scrum Master</li>
+          <li>Scrum Product Owner</li>
+          <li>Scrum Developer</li>
+          <li>Agile Coach</li>
+          <li>Design Thinking</li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Q-Vision Technologies</h4>
+        <ul class="footer-links">
+          <li>Desarrollo de Software</li>
+          <li>Aseguramiento de Calidad</li>
+          <li>Automatización de:</li>
+          <li>Procesos con RPA</li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Soporte</h4>
+        <p class="text-links">
+          Si tienes inconvenientes o dudas, contáctanos al correo:
+        </p>
+        <a class="email" href="">izyacademy@qvision.us</a>
+      </div>
+    </div>
+
+    <div class="sub-footer">
+      <a class="logo" href=""><img src="" alt="izy academy footer logo" /></a>
+      <ul class="links-legal">
+        <a href="">
+          <li>Términos y Condiciones</li>
+        </a>
+        <a href="">
+          <li>Política Tratamiento de Datos</li>
+        </a>
+      </ul>
+
+      <div class="copyright">
+        Copyright © 2023 IzyAcademy Marca Registrada By Qvision Technologies.
+      </div>
+    </div>
+  </footer>
+  <script src="../Js/index.js" /></script>
+</body>
+
+</html>

@@ -5,12 +5,11 @@ const loginForm = document.getElementById('loginForm');
 const loginButton = document.querySelector('.modal-login-button');
 const userNameMenu = document.getElementById("userName");
 
-// Mostrar el modal
+
 btnloginInit.onclick = function () {
   modal.style.display = "flex";
 };
 
-// Cerrar el modal
 closeBtn.onclick = function () {
   modal.style.display = "none";
 };
